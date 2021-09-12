@@ -1,8 +1,8 @@
 import tweepy
 import time
 
-consumer_key = '' 
-consumer_secret = ' ' 
+consumer_key = ' '
+consumer_secret = ' '
 key = ' '
 secret = ' '
 
@@ -11,7 +11,7 @@ auth.set_access_token(key,secret)
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-search_term = '#F1'
+search_term = '@rha_india'
 TweetNumber = 990
 counter =1
 tweets = tweepy.Cursor(api.search,search_term).items(TweetNumber)# Argumnets =TweetNumber
