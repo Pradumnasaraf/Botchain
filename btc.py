@@ -1,3 +1,4 @@
+from os import getenv
 from requests.sessions import Session
 import tweepy
 import time
@@ -6,10 +7,10 @@ import requests
 import typing
 
 # We will get all of these sceret keys from twitter developer account
-consumer_key = ''
-consumer_secret = ''
-key = ''
-secret = ''
+consumer_key = getenv("CONSUMER_KEY")
+consumer_secret = getenv("CONSUMER_SECRET")
+key = getenv("KEY")
+secret = getenv("SECRET")
 
 # we pass our consumer key and secret for authentication
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
@@ -31,7 +32,7 @@ headers ={
     'Accepts': 'application/json',
 
     # CoinMaket API Key
-    'X-CMC_PRO_API_KEY':''
+    'X-CMC_PRO_API_KEY': getenv("PRO_API_KEY")
 }
 
 # Its is simply a kind of browsing seession, use to save reapted info like cookies, beacuse requested data (type) with always be same.
@@ -51,7 +52,7 @@ while True:
         Data = json.loads(response.text)['data']['1']['quote']['USD']['price']
 
         # This is the exact message that will go on Twitter.
-        FinalMessage = 'Current #Bitcoin Price is $'+ str(round(Data))+' #BTC #Crypto'
+        FinalMessage = 'Current #Bitcoin Price is $ #BTC #Crypto'
 
         # Tweeting out the FinalMessage.
         api.update_status(FinalMessage)
