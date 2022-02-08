@@ -1,16 +1,20 @@
-from os import getenv
 from requests.sessions import Session
+import os
 import tweepy
 import time
 import json
 import requests
 import typing
+from dotenv import load_dotenv
+load_dotenv()
+
+# Add all the Key in the .env file according to the constant name.
 
 # We will get all of these sceret keys from twitter developer account
-consumer_key = "CONSUMER_KEY"
-consumer_secret = getenv("CONSUMER_SECRET")
-key = getenv("KEY")
-secret = getenv("SECRET")
+consumer_key = os.environ.get("CONSUMER_KEY")
+consumer_secret = os.environ.get("CONSUMER_SECRET")
+key = os.environ.get("KEY")
+secret = os.environ.get("SECRET")
 
 # we pass our consumer key and secret for authentication
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
@@ -32,7 +36,7 @@ headers ={
     'Accepts': 'application/json',
 
     # CoinMaket API Key
-    'X-CMC_PRO_API_KEY': getenv("PRO_API_KEY")
+    'X-CMC_PRO_API_KEY': os.environ.get("PRO_API_KEY")
 }
 
 # Its is simply a kind of browsing seession, use to save reapted info like cookies, beacuse requested data (type) with always be same.
