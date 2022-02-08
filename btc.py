@@ -7,7 +7,7 @@ import requests
 import typing
 
 # We will get all of these sceret keys from twitter developer account
-consumer_key = getenv("CONSUMER_KEY")
+consumer_key = "CONSUMER_KEY"
 consumer_secret = getenv("CONSUMER_SECRET")
 key = getenv("KEY")
 secret = getenv("SECRET")
