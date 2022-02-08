@@ -26,6 +26,7 @@ parameters={
     'slug':'bitcoin',
 }
 
+
 headers ={
     # Here we are specifying the the data format, in which we want to fetch the data.
     'Accepts': 'application/json',
