@@ -16,8 +16,6 @@ secret = getenv("SECRET")
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(key,secret)
 
-# This is optional, it's used to rate limit
-api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 # API Request URL
 url ='https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
