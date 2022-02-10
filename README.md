@@ -19,7 +19,7 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 
 ## 🖱️ Using the bot
 
-After completing the prerequisite, clone this repo, and go through [`f1.py`](f1.py) and [`doge.py`](doge.py) file and put your private and API keys, everything is well documented. After that either run the code on `IDE` or Deploy on `PythonAnywhre`.
+After completing the prerequisite, clone this repo, and go through [`btc.py`](btc.py) and [`doge.py`](doge.py) file and put your private and API keys, everything is well documented. After that either run the code on `IDE` or Deploy on `PythonAnywhre`.
 
 ## ⌚ Watch the Bots In Action
 
