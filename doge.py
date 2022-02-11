@@ -65,7 +65,7 @@ while True:
         api.update_status(FinalMessage)
 
         # Printing the no of tweets that happened on the terminal
-        print('Tweet No.'+str(Ticker))
+        print('DOGE Tweet No.'+str(Ticker))
 
         # Updating the ticker
         Ticker= Ticker+1
