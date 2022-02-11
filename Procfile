@@ -1,1 +1,1 @@
-web: python doge.py && btc.py 
+web: python doge.py && python btc.py 
