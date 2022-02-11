@@ -9,18 +9,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add all the Key in the .env file according to the constant name.
-
-# We will get all of these sceret keys from twitter developer account
-consumer_key = os.environ.get("CONSUMER_KEY")
-consumer_secret = os.environ.get("CONSUMER_SECRET")
-key = os.environ.get("KEY")
-secret = os.environ.get("SECRET")
+consumer_key = os.environ.get('BTC_CON_KEY')
+consumer_secret = os.environ.get('BTC_CON_SECRET')
+key = os.environ.get('BTC_KEY')
+secret = os.environ.get('BTC_SECRET')
+coinAPIKey = os.environ.get('BTC_COIN_KEY')
 
 # we pass our consumer key and secret for authentication
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(key,secret)
 
-api = tweepy.API(auth)
+# This is optional, it's used to rate limit
+api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 # API Request URL
 url ='https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
@@ -30,13 +30,12 @@ parameters={
     'slug':'bitcoin',
 }
 
-
 headers ={
     # Here we are specifying the the data format, in which we want to fetch the data.
     'Accepts': 'application/json',
 
     # CoinMaket API Key
-    'X-CMC_PRO_API_KEY': os.environ.get("PRO_API_KEY")
+    'X-CMC_PRO_API_KEY': coinAPIKey
 }
 
 # Its is simply a kind of browsing seession, use to save reapted info like cookies, beacuse requested data (type) with always be same.
@@ -56,7 +55,7 @@ while True:
         Data = json.loads(response.text)['data']['1']['quote']['USD']['price']
 
         # This is the exact message that will go on Twitter.
-        FinalMessage = 'Current #Bitcoin Price is $ #BTC #Crypto'
+        FinalMessage = 'Current #Bitcoin Price is $'+ str(round(Data))+' #BTC #Crypto'
 
         # Tweeting out the FinalMessage.
         api.update_status(FinalMessage)

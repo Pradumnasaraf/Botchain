@@ -1,1 +1,1 @@
-web: python btc.py
+web: python btc.py && doge.pyqgit reset 
