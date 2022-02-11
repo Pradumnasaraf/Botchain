@@ -78,7 +78,7 @@ while True:
 
         # Print the root cause of the error
         print(e.reason)
-        print('Tweet No.'+str(Ticker))
+        print('DOGE Tweet No.'+str(Ticker))
         
         # Updating the ticker
         Ticker= Ticker+1
