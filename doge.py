@@ -65,20 +65,20 @@ while True:
         api.update_status(FinalMessage)
 
         # Printing the no of tweets that happened on the terminal
-        print('Tweet No.'+str(Ticker))
+        print('DOGE Tweet No.'+str(Ticker))
 
         # Updating the ticker
         Ticker= Ticker+1
 
-        # Bot will sleep for 10 minutes after every single, tweet
-        time.sleep(600)
+        # Bot will sleep for 5 minutes after every single, tweet
+        time.sleep(300)
 
     # Exception handeling 
     except tweepy.TweepError as e:
 
         # Print the root cause of the error
         print(e.reason)
-        print('Tweet No.'+str(Ticker))
+        print('DOGE Tweet No.'+str(Ticker))
         
         # Updating the ticker
         Ticker= Ticker+1

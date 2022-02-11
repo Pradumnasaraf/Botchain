@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add all the Key in the .env file according to the constant name.
-
 consumer_key = os.environ.get('BTC_CON_KEY')
 consumer_secret = os.environ.get('BTC_CON_SECRET')
 key = os.environ.get('BTC_KEY')
@@ -62,13 +61,13 @@ while True:
         api.update_status(FinalMessage)
 
         # Printing the no of tweets that happened on the terminal
-        print('Tweet No.'+str(Ticker))
+        print('BTC Tweet No.'+str(Ticker))
 
         # Updating the ticker
         Ticker= Ticker+1
 
-        # Bot will sleep for 10 minutes after every single, tweet
-        time.sleep(600)
+        # Bot will sleep for 5 minutes after every single, tweet
+        time.sleep(300)
 
     # Exception handeling
     except tweepy.TweepError as e:
