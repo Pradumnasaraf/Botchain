@@ -66,8 +66,8 @@ while True:
         # Updating the ticker
         Ticker= Ticker+1
 
-        # Bot will sleep for 10 minutes after every single, tweet
-        time.sleep(600)
+        # Bot will sleep for 5 minutes after every single, tweet
+        time.sleep(300)
 
     # Exception handeling
     except tweepy.TweepError as e:
