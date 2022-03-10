@@ -14,10 +14,10 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
   - We need to get a developer account for getting private keys and secrets. You can apply from it [here](https://developer.twitter.com/en/portal/petition/essential/basic-info), it will take 5-10 min for setting up a Dev account.
 
 - **CoinMaerketCap API Keys** (Optional if you don't need any financial market data)
-  - We can use any financial market API for getting the latest quote of the assets, but here we are using the `CoinMarketCap API` free plan. You can get the API access from [here](https://coinmarketcap.com/api/).
+  - We can use any financial market API for getting the latest quote of the assets, but here we are using the `CoinMarketCap API` free plan. You can get API access from [here](https://coinmarketcap.com/api/).
 
 - **Railway Account**
-  - For deploying and running a bot 24/7 we will use [Railway](https://railway.app/). Here we are using Railway, beacuse it's free and can run bot for 24X7 without any refreshment.
+  - For deploying and running a bot 24/7 we will use [Railway](https://railway.app/). Here we are using Railway because it's free and can run the bot for 24X7 without any refreshment.
 
 ## 🖱️ Using and quick set-up guide:
 
@@ -29,11 +29,11 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 pip3 install -r requirements.txt 
 ```
 
-- Create an `.env` file in the root folder and add in your API keys and like so :
+- Create a `.env` file in the root folder and add in your API keys and like so :
 
 ```txt
-Note: Here I have included 2 sets of keys, beacuse I am running 2 differnt bot from the same repo, 
-you can aslo do for one, either BTC or Doge
+Note: Here I have included 2 sets of keys, because I am running 2 different bot from the same repo, 
+you can also do for one, either BTC or Doge
 
 BTC_CON_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 BTC_CON_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -47,6 +47,9 @@ DOGE_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 DOGE_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 DOGE_COIN_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (CoinMarketCap API KEY)
 ```
+
+- Run `python3 doge.py` or `python3 btc.py`, depending on which bot you are running.
+
 
 ## ⌚ Watch the Bots In Action
 
@@ -65,4 +68,3 @@ DOGE_COIN_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (CoinMarketCap API KEY)
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/150648880-a8e08131-7148-491c-bb9d-e164e2cc6c54.png"></p>
 
 ---
-
