@@ -16,8 +16,8 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 - **CoinMaerketCap API Keys** (Optional if you don't need any financial market data)
   - We can use any financial market API for getting the latest quote of the assets, but here we are using the `CoinMarketCap API` free plan. You can get the API access from [here](https://coinmarketcap.com/api/).
 
-- **PythonAnywhere Account**
-  - For deploying and running a bot 24/7 we will use [PythonAnywhere](https://www.pythonanywhere.com/). We will use a free plan for the initial stage of deployment and then move towards paid or switch to another platform likes [Heroku](https://www.heroku.com/) which provides more features.
+- **Railway Account**
+  - For deploying and running a bot 24/7 we will use [Railway](https://railway.app/). Here we are using Railway, beacuse it's free and can run bot for 24X7 without any refreshment.
 
 ## 🖱️ Using the bot
 
