@@ -19,7 +19,7 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 - **Railway Account**
   - For deploying and running a bot 24/7 we will use [Railway](https://railway.app/). Here we are using Railway, beacuse it's free and can run bot for 24X7 without any refreshment.
 
-## 🖱️ Using/Setting up the bot
+## 🖱️ Using and quick set-up guide:
 
 - Fork this repository
 
