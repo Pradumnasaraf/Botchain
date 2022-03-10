@@ -11,12 +11,12 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 ## ✔️ Prerequisite
 
 - **Twitter Developer Account**
-  - We need to get a developer account for getting private keys and secrets. You can apply from it [here](https://developer.twitter.com/en/portal/petition/essential/basic-info), it will take 5-10 min for setting up a Dev account.
+  - We need to get a developer account for getting private keys and secrets. we can apply from it [here](https://developer.twitter.com/en/portal/petition/essential/basic-info), it will take 5-10 min for setting up a Dev account.
 
-- **CoinMaerketCap API Keys** (Optional if you don't need any financial market data)
-  - We can use any financial market API for getting the latest quote of the assets, but here we are using the `CoinMarketCap API` free plan. You can get API access from [here](https://coinmarketcap.com/api/).
+- **CoinMaerketCap API Keys** (Optional if we don't need any financial market data)
+  - We can use any financial market API for getting the latest quote of the assets, but here we are using the `CoinMarketCap API` free plan. we can get API access from [here](https://coinmarketcap.com/api/).
 
-- **Railway Account**
+- **Railway Account** (Only necessary if we want to host the bot, not for running locally)
   - For deploying and running we will use [Railway](https://railway.app/). Here we are using Railway because it's free and can run the bot for 24X7 without any refreshment.
 
 ## 🖱️ Using and quick set-up guide:
@@ -29,11 +29,11 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 pip3 install -r requirements.txt 
 ```
 
-- Create a `.env` file in the root folder and add in your API keys and like so :
+- Create a `.env` file in the root folder and add in our API keys and like so :
 
 ```
-Note: Here I have included 2 sets of keys, because I am running 2 different bots from the same repo, 
-you can also use one of them, either BTC or Doge
+Note: Here I have included 2 sets of keys because I am running 2 different bots from the same repo, 
+we can also use one of them, either BTC or Doge
 
 BTC_CON_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     (TWITTER_CONSUMER_KEY)
 BTC_CON_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  (TWITTER_CONSUMER_SECRET)      
@@ -48,7 +48,11 @@ DOGE_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX       (TWITTER_ACCESS_TOKE
 DOGE_COIN_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     (CoinMarketCap API KEY)
 ```
 
-- Run `python3 doge.py` or `python3 btc.py`, depending on which bot you are running.
+- Run `python3 doge.py` or `python3 btc.py`, depending on which bot we are running.
+
+### Hosting the Bot
+
+For hosting it remotely, we need to add some files like `Procfile` and `requirements.txt`, which are already present in the repo. We just need to add the API keys in the variable section on the Railway platform while deployment. For more details, please check [`Railway Offical Docs`](https://docs.railway.app/deploy/python)
 
 
 ## ⌚ Watch the Bots In Action
