@@ -4,7 +4,7 @@
 
 This repo contains the source for the **Twitter bot** which Tweet out the latest Ticket price after a fixed interval of time. 
 
-All the bots are made with the help of [`tweepy`](https://github.com/tweepy/tweepy) library for accessing the Twitter API, and [`CoinMarketCap`](https://coinmarketcap.com/api/documentation/v1/) API for accessing the latest financial market data, and PythonAnywhere for the deployment.
+All the bots are made with the help of [`tweepy`](https://github.com/tweepy/tweepy) library for accessing the Twitter API, and [`CoinMarketCap`](https://coinmarketcap.com/api/documentation/v1/) API for accessing the latest financial market data, and Railway for the deployment.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/150635263-e2c0e19b-2dcb-434c-a2a1-39a5f79e40d2.png"></p>
 
@@ -22,10 +22,17 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 ## 🖱️ Using and quick set-up guide:
 
 - Fork this repository
+ 
+- Install all the dependencies from [`requirements.txt`](requirements.txt) file. We can also use the command to install all the dependencies at once.
+
+```sh
+pip3 install -r requirements.txt 
+```
 
 - Create an `.env` file in the root folder and add in your API keys and like so :
+
 ```txt
-Note: Here I 2 sets (5 in each), beacuse i am running 2 diffent bot from the same repo, 
+Note: Here I have included 2 sets of keys, beacuse I am running 2 differnt bot from the same repo, 
 you can aslo do for one, either BTC or Doge
 
 BTC_CON_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
