@@ -19,9 +19,27 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 - **Railway Account**
   - For deploying and running a bot 24/7 we will use [Railway](https://railway.app/). Here we are using Railway, beacuse it's free and can run bot for 24X7 without any refreshment.
 
-## 🖱️ Using the bot
+## 🖱️ Using/Setting up the bot
 
-After completing the prerequisite, clone this repo, and go through [`btc.py`](btc.py) and [`doge.py`](doge.py) file and put your private and API keys, everything is well documented. After that either run the code on `IDE` or Deploy on `PythonAnywhre`.
+- Fork this repository
+
+- Create an `.env` file in the root folder and add in your API keys and like so :
+```txt
+Note: Here I 2 sets (5 in each), beacuse i am running 2 diffent bot from the same repo, 
+you can aslo do for one, either BTC or Doge
+
+BTC_CON_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+BTC_CON_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+BTC_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+BTC_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+BTC_COIN_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (CoinMarketCap API KEY)
+
+DOGE_CON_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+DOGE_CON_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+DOGE_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+DOGE_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+DOGE_COIN_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (CoinMarketCap API KEY)
+```
 
 ## ⌚ Watch the Bots In Action
 
