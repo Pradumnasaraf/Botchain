@@ -52,7 +52,7 @@ DOGE_COIN_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     (CoinMarketCap API K
 
 ### Hosting the Bot
 
-For hosting it remotely, we need to add some files like `Procfile` and `requirements.txt`, which are already present in the repo. We just need to add the API keys in the variable section on the Railway platform while deployment. For more details, please check [`Railway Offical Docs`](https://docs.railway.app/deploy/python)
+For hosting it remotely, we need to add some files like [`Procfile`](Procfile) and [`requirements.txt`](requirements.txt), which are already present in the repo. We just need to add the API keys in the variable section on the Railway platform while deployment. For more details, please check [`Railway Offical Docs`](https://docs.railway.app/deploy/python)
 
 
 ## ⌚ Watch the Bots In Action
