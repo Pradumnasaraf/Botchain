@@ -62,7 +62,7 @@ we can run single bot by having `web: python doge.py` in the **Procfile**, for m
 
 ### Bitcoin Bot
 
-<p align="left"> <a href="https://twitter.com/IAmBitcoinBot" target="blank"><img src="https://img.shields.io/twitter/follow/IAmBitcoinBot?logo=twitter&style=for-the-badge" alt="IAmBitcoinBot" /></a></p>
+<!--<p align="left"> <a href="https://twitter.com/IAmBitcoinBot" target="blank"><img src="https://img.shields.io/twitter/follow/IAmBitcoinBot?logo=twitter&style=for-the-badge" alt="IAmBitcoinBot" /></a></p>-->
 
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/150648879-223ffd02-37dc-42ba-97bc-3ebbceb74221.png"></p>
 
@@ -70,7 +70,7 @@ we can run single bot by having `web: python doge.py` in the **Procfile**, for m
 
 ### Doge Bot
 
-<p align="left"> <a href="https://twitter.com/IAmDogeBot" target="blank"><img src="https://img.shields.io/twitter/follow/IAmDogeBot?logo=twitter&style=for-the-badge" alt="IAmDogeBot" /></a></p>
+<!--<p align="left"> <a href="https://twitter.com/IAmDogeBot" target="blank"><img src="https://img.shields.io/twitter/follow/IAmDogeBot?logo=twitter&style=for-the-badge" alt="IAmDogeBot" /></a></p>-->
 
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/150648880-a8e08131-7148-491c-bb9d-e164e2cc6c54.png"></p>
 
