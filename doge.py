@@ -26,7 +26,7 @@ api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 # API Request URL
 url ='https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 
-# Here bitcoin is used as a para, we can provide any documented ticker.
+# Here dpgecoin is used as a para, we can provide any documented ticker.
 parameters={
     'slug':'dogecoin',
 }
