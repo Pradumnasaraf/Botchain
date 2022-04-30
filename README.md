@@ -14,7 +14,7 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 
   - We need to get a developer account for getting private keys and secrets. we can apply from it [here](https://developer.twitter.com/en/portal/petition/essential/basic-info), it will take 5-10 min for setting up a Dev account.
 
-- **CoinMaerketCap API Keys** (Optional if we don't need any financial market data)
+- **CoinMarketCap API Keys** (Optional if we don't need any financial market data)
 
   - We can use any financial market API for getting the latest quote of the assets, but here we are using the `CoinMarketCap API` free plan. we can get API access from [here](https://coinmarketcap.com/api/).
 
