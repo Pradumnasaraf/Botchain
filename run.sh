@@ -1,2 +1,2 @@
-python doge.py &
-python btc.py
+python src/doge.py &
+python src/btc.py
