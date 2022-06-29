@@ -2,7 +2,7 @@ name: Releases
 on:
   push:
     branches:
-      - add-auto-release
+      - main
 
 jobs:
   changelog:
