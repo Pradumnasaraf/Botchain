@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/Pradumnasaraf/Botchain/compare/v1.2.0...v1.2.1) (2022-08-30)
+
+
+### Bug Fixes
+
+* run.sh file header ([8fc45ad](https://github.com/Pradumnasaraf/Botchain/commit/8fc45ada4a07a47e712c4f4cfefa03e55d96a715))
+
+
+
 # [1.2.0](https://github.com/Pradumnasaraf/Botchain/compare/v1.1.0...v1.2.0) (2022-06-29)
 
 
