@@ -6,6 +6,12 @@ This repo contains the source for the **Twitter bot** which Tweet out the latest
 
 All the bots are made with the help of [`tweepy`](https://github.com/tweepy/tweepy) library for accessing the Twitter API, and [`CoinMarketCap`](https://coinmarketcap.com/api/documentation/v1/) API for accessing the latest financial market data, and [`Railway`](https://railway.app/) for the deployment.
 
+<div align="center">
+
+[![Publish Image to GitHub Container Registry](https://github.com/Pradumnasaraf/Botchain/actions/workflows/publish-ghcr.yml/badge.svg)](https://github.com/Pradumnasaraf/Botchain/actions/workflows/publish-ghcr.yml) [![Releases](https://github.com/Pradumnasaraf/Botchain/actions/workflows/releases.yml/badge.svg)](https://github.com/Pradumnasaraf/Botchain/actions/workflows/releases.yml)
+
+</div>
+
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/150635263-e2c0e19b-2dcb-434c-a2a1-39a5f79e40d2.png"></p>
 
 ## ✔️ Prerequisite
