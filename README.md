@@ -63,7 +63,6 @@ For hosting it remotely, we need to add some files like [`Procfile`](Procfile) a
 
 ### Bitcoin Bot
 
-<p align="left"> <a href="https://twitter.com/IAmBitcoinBot" target="blank"><img src="https://img.shields.io/twitter/follow/IAmBitcoinBot?logo=twitter&style=for-the-badge" alt="IAmBitcoinBot" /></a></p>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/163385144-da82423a-4225-48c9-9388-4fc72e97c324.png"></p>
 
@@ -71,7 +70,6 @@ For hosting it remotely, we need to add some files like [`Procfile`](Procfile) a
 
 ### Doge Bot
 
-<p align="left"> <a href="https://twitter.com/IAmDogeBot" target="blank"><img src="https://img.shields.io/twitter/follow/IAmDogeBot?logo=twitter&style=for-the-badge" alt="IAmDogeBot" /></a></p>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/163385127-4214c423-f57c-4137-8207-73ebd2f08c58.png"></p>
 
