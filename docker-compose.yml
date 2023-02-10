@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  botchain:
+    container_name: botchain-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always

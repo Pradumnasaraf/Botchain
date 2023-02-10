@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python src/doge.py &
-python src/btc.py
+python app/doge.py &
+python app/btc.py
