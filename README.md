@@ -9,7 +9,7 @@ All the bots are made with the help of [`tweepy`](https://github.com/tweepy/twee
 
 <div align="center">
 
-[![Publish Image to GitHub Container Registry](https://github.com/Pradumnasaraf/Botchain/actions/workflows/publish-ghcr.yml/badge.svg)](https://github.com/Pradumnasaraf/Botchain/actions/workflows/publish-ghcr.yml)[![Releases](https://github.com/Pradumnasaraf/Botchain/actions/workflows/releases.yml/badge.svg)](https://github.com/Pradumnasaraf/Botchain/actions/workflows/releases.yml)
+[![Publish Image to GitHub Container Registry](https://github.com/Pradumnasaraf/Botchain/actions/workflows/publish-ghcr.yml/badge.svg)](https://github.com/Pradumnasaraf/Botchain/actions/workflows/publish-ghcr.yml) [![Releases](https://github.com/Pradumnasaraf/Botchain/actions/workflows/releases.yml/badge.svg)](https://github.com/Pradumnasaraf/Botchain/actions/workflows/releases.yml)
 
 </div>
 
