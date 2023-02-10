@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/Pradumnasaraf/Botchain/compare/v1.2.1...v1.3.0) (2023-02-10)
+
+
+### Features
+
+* refactor app ([#18](https://github.com/Pradumnasaraf/Botchain/issues/18)) ([92a0dfd](https://github.com/Pradumnasaraf/Botchain/commit/92a0dfd7e1a171e6bec0a2f5b5f2f3311030cecf))
+
+
+
 ## [1.2.1](https://github.com/Pradumnasaraf/Botchain/compare/v1.2.0...v1.2.1) (2022-08-30)
 
 
