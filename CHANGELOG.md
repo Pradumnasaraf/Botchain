@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.0...v1.3.1) (2023-02-15)
+
+
+### Bug Fixes
+
+* broken doge.py file ([188caf4](https://github.com/Pradumnasaraf/Botchain/commit/188caf47f1124b65ed07f1a4eb75119cc549495b))
+
+
+
 # [1.3.0](https://github.com/Pradumnasaraf/Botchain/compare/v1.2.1...v1.3.0) (2023-02-10)
 
 
