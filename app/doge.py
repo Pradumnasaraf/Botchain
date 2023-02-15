@@ -43,8 +43,7 @@ while True:
         time.sleep(300)
 
     except tweepy.TweepError as e:
-
- Print the root cause of the error
+        
         print(e.reason)
         print('DOGE Tweet No.'+str(Ticker))
         Ticker = Ticker+1
