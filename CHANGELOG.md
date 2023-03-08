@@ -1,3 +1,12 @@
+## [1.3.3](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.2...v1.3.3) (2023-03-08)
+
+
+### Bug Fixes
+
+* Dockerfile ([95a9035](https://github.com/Pradumnasaraf/Botchain/commit/95a9035b36ed62b8ed2dc1b4e33d9007da186112))
+
+
+
 ## [1.3.2](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.1...v1.3.2) (2023-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * run.sh file header ([8fc45ad](https://github.com/Pradumnasaraf/Botchain/commit/8fc45ada4a07a47e712c4f4cfefa03e55d96a715))
-
-
-
-# [1.2.0](https://github.com/Pradumnasaraf/Botchain/compare/v1.1.0...v1.2.0) (2022-06-29)
-
-
-### Features
-
-* Added src folder ([#17](https://github.com/Pradumnasaraf/Botchain/issues/17)) ([ec06c0f](https://github.com/Pradumnasaraf/Botchain/commit/ec06c0f35217e9bb47e7263b3760ef1e5f06e906))
 
 
 
