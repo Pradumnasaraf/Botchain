@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   botchain:
-    container_name: botchain-app
+    container_name: botchain
     build:
       context: .
       dockerfile: Dockerfile
