@@ -1,6 +1,6 @@
 FROM python:3.7.3-alpine3.9
 WORKDIR /app
-COPY requirements.txt .
+COPY app/requirements.txt .
 
 RUN pip3 install -r requirements.txt
 
