@@ -18,9 +18,7 @@ coinAPIKey = os.environ.get('BTC_COIN_KEY')
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 
-
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
-
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 
 parameters = {
@@ -29,7 +27,6 @@ parameters = {
 
 headers = {
     'Accepts': 'application/json',
-
     'X-CMC_PRO_API_KEY': coinAPIKey
 }
 
@@ -48,7 +45,7 @@ while True:
         api.update_status(FinalMessage)
         print('BTC Tweet No.'+str(Ticker))
         Ticker = Ticker+1
-        time.sleep(300)
+        time.sleep(613)
 
     except tweepy.TweepError as e:
 
