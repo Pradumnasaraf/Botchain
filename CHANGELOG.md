@@ -1,3 +1,12 @@
+## [1.3.4](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.3...v1.3.4) (2023-03-08)
+
+
+### Bug Fixes
+
+* docker-compose.yml ([ca90ab3](https://github.com/Pradumnasaraf/Botchain/commit/ca90ab326b5d4fe7c932ff4290f95cb794a30875))
+
+
+
 ## [1.3.3](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.2...v1.3.3) (2023-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * refactor app ([#18](https://github.com/Pradumnasaraf/Botchain/issues/18)) ([92a0dfd](https://github.com/Pradumnasaraf/Botchain/commit/92a0dfd7e1a171e6bec0a2f5b5f2f3311030cecf))
-
-
-
-## [1.2.1](https://github.com/Pradumnasaraf/Botchain/compare/v1.2.0...v1.2.1) (2022-08-30)
-
-
-### Bug Fixes
-
-* run.sh file header ([8fc45ad](https://github.com/Pradumnasaraf/Botchain/commit/8fc45ada4a07a47e712c4f4cfefa03e55d96a715))
 
 
 
