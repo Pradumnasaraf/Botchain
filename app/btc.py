@@ -50,6 +50,4 @@ while True:
     except tweepy.TweepError as e:
 
         print(e.reason)
-        print('Tweet No.'+str(Ticker))
-        Ticker = Ticker+1
         time.sleep(100)

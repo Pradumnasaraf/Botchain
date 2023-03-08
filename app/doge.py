@@ -38,7 +38,6 @@ Ticker = 1
 while True:
 
     try:
-
         response = session.get(url, params=parameters)
         Data = json.loads(response.text)['data']['74']['quote']['USD']['price']
         formatted = '{0:.6g}'.format(Data)
@@ -50,8 +49,5 @@ while True:
         time.sleep(613)
 
     except tweepy.TweepError as e:
-        
         print(e.reason)
-        print('DOGE Tweet No.'+str(Ticker))
-        Ticker = Ticker+1
         time.sleep(100)
