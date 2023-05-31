@@ -1,3 +1,12 @@
+## [1.3.5](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.4...v1.3.5) (2023-05-31)
+
+
+### Bug Fixes
+
+* docker-compose.yml ([36d41b5](https://github.com/Pradumnasaraf/Botchain/commit/36d41b55ae3e0735b56a898ac83249746bb01068))
+
+
+
 ## [1.3.4](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.3...v1.3.4) (2023-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * broken doge.py file ([188caf4](https://github.com/Pradumnasaraf/Botchain/commit/188caf47f1124b65ed07f1a4eb75119cc549495b))
-
-
-
-# [1.3.0](https://github.com/Pradumnasaraf/Botchain/compare/v1.2.1...v1.3.0) (2023-02-10)
-
-
-### Features
-
-* refactor app ([#18](https://github.com/Pradumnasaraf/Botchain/issues/18)) ([92a0dfd](https://github.com/Pradumnasaraf/Botchain/commit/92a0dfd7e1a171e6bec0a2f5b5f2f3311030cecf))
 
 
 
