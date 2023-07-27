@@ -1,3 +1,12 @@
+## [1.3.6](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.5...v1.3.6) (2023-07-27)
+
+
+### Bug Fixes
+
+* release action ([728edbf](https://github.com/Pradumnasaraf/Botchain/commit/728edbf50e8c6a90e9014f3609e4fbb632edf7cf))
+
+
+
 ## [1.3.5](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.4...v1.3.5) (2023-05-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * bash script and bot tweet interval ([16db59e](https://github.com/Pradumnasaraf/Botchain/commit/16db59eb976c5efa8328173795d3c22f3cfc96a2))
-
-
-
-## [1.3.1](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.0...v1.3.1) (2023-02-15)
-
-
-### Bug Fixes
-
-* broken doge.py file ([188caf4](https://github.com/Pradumnasaraf/Botchain/commit/188caf47f1124b65ed07f1a4eb75119cc549495b))
 
 
 
