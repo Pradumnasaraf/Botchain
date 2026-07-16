@@ -15,10 +15,10 @@ key = os.environ.get('BTC_KEY')
 secret = os.environ.get('BTC_SECRET')
 coinAPIKey = os.environ.get('BTC_COIN_KEY')
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 
-api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+api = tweepy.API(auth, wait_on_rate_limit=True)
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 
 parameters = {
@@ -47,7 +47,7 @@ while True:
         Ticker = Ticker+1
         time.sleep(613)
 
-    except tweepy.TweepError as e:
+    except tweepy.TweepyException as e:
 
-        print(e.reason)
+        print(e)
         time.sleep(100)
