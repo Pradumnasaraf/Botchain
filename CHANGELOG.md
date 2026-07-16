@@ -1,3 +1,12 @@
+## [1.3.7](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.6...v1.3.7) (2026-07-16)
+
+
+### Bug Fixes
+
+* migrate bots to tweepy 4.x api ([22e6766](https://github.com/Pradumnasaraf/Botchain/commit/22e6766913d26d9c9342cd4f4efcb56751a956fb))
+
+
+
 ## [1.3.6](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.5...v1.3.6) (2023-07-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Dockerfile ([95a9035](https://github.com/Pradumnasaraf/Botchain/commit/95a9035b36ed62b8ed2dc1b4e33d9007da186112))
-
-
-
-## [1.3.2](https://github.com/Pradumnasaraf/Botchain/compare/v1.3.1...v1.3.2) (2023-03-08)
-
-
-### Bug Fixes
-
-* bash script and bot tweet interval ([16db59e](https://github.com/Pradumnasaraf/Botchain/commit/16db59eb976c5efa8328173795d3c22f3cfc96a2))
 
 
 
